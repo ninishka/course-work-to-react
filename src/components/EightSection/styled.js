@@ -1,23 +1,24 @@
 import styled from 'styled-components'
 
+export const Wrapper = styled.section`
+ background-color: #A7C1D9;
+`
 
 export const TitleLp = styled.div`
   text-align: center;
-  margin: 60px 0 35px;
-`
-export const News = styled.p`
-  color: #2ED279;
-  font-size: 8px;
+  /* margin: 60px 0 35px; */
 `
 export const Articles = styled.h1`
   color: #2E2E2E;
   font-size: 45px;
+  margin-top: 0;
+  padding: 57px;
 `
 export const RosaTeam = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-bottom: 140px;
+  padding-bottom: 100px;
   align-items: center;
     &:hover {
     margin-top: 0px;

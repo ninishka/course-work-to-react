@@ -1,12 +1,12 @@
 import {
   TitleLp,
-  News,
   Articles,
   RosaTeam,
   KubiksWrap,
   TextWrapp,
   RosaTitle,
   RosaText,
+  Wrapper
 } from './styled'
 
 import img1 from '../imgs/mrs-vyvyan-drury-1907-1996-daughter-romayne-32241038.jpg'
@@ -40,9 +40,8 @@ const teamClients = [
 ]
 
 const EightSection = () => (
-  <section>
+  <Wrapper>
     <TitleLp>
-      <News>NEWS & EVENT</News>
       <Articles>Rosa Team</Articles>
     </TitleLp>
     <RosaTeam>
@@ -55,7 +54,7 @@ const EightSection = () => (
         </KubiksWrap>
       ))}
     </RosaTeam>
-  </section>
+  </Wrapper>
 )
 
 export default EightSection;

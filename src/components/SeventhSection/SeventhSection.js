@@ -12,6 +12,7 @@ import {
   Occupation,
   SomeText,
   YearWrap,
+  Wrapper
 } from './styled'
 
 import tpt3 from '../imgs/5afae8c892664274779035.jpg'
@@ -50,7 +51,7 @@ const articlessData = [
 
 
 const SeventhSection = () =>(
-  <section>
+  <Wrapper>
     <TitleLp>
       <News>NEWS & EVENT</News>
       <Articles>Latest Articles</Articles>
@@ -68,7 +69,6 @@ const SeventhSection = () =>(
               <Company>{company}</Company>
               <Occupation>{occupation}</Occupation>
               <SomeText>{someText}</SomeText>
-              <a href="">READ MORE</a>
             </TextWrap>
           </DivForCont>
           <NumberWrap>
@@ -78,7 +78,7 @@ const SeventhSection = () =>(
         </DivBox>
       )})}
     </>
-  </section>
+  </Wrapper>
   );
 
 export default SeventhSection;

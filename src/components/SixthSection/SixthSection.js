@@ -11,6 +11,7 @@ import {
   TitleBox,
   NavBtnWrap,
   NavButton,
+  Wrapper
 } from './styled'
 
 import heart from "../imgs2/heart.svg"
@@ -20,21 +21,21 @@ const myProjectsData = [
     id: '1',
     title: "middle",
     color: '#555555',
-    href: "https://ninishka.github.io/middle/",
+    href: "https://github.com/ninishka/middle",
     date: "04.25.2024",
   },
   {
     id: '2',
     title: "Validations",
     color: "#848484",
-    href: "https://ninishka.github.io/js-assignment-18/",
+    href: "https://github.com/ninishka/js-assignment-18",
     date: "05.20.2024",
   },
   {
     id: '3',
     title: "Groupwork",
     color: '#555555',
-    href: "https://ninishka.github.io/groupwork2/",
+    href: "https://github.com/ninishka/groupwork2",
     date: "04.11.2024",
 
   },
@@ -42,24 +43,23 @@ const myProjectsData = [
     id: '4',
     title: "Grid",
     color: '#848484',
-    href: "https://ninishka.github.io/assignment-10/",
+    href: "https://github.com/ninishka/assignment-10",
     date: "04.04.2024",
 
   },
   {
     id: '5',
-    title: "mozilla",
-    href: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox",
+    title: "cultura-liquida-fe",
+    href: "https://ninishka.github.io/cultura-liquida-fe/",
     color: '#555555',
-    date: "04.19.2024",
+    date: "08.20.2024",
   },
   {
     id: '6',
-    title: "mozila2",
-    href: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox",
+    title: "Same but vanilla",
+    href: "https://github.com/ninishka/FINAL-PROJECT",
     color: '#848484',
     date: "04.19.2024",
-
   },
 ]
 
@@ -86,7 +86,7 @@ const SixthSection = () => {
   };
 
   return (
-    <section>
+    <Wrapper>
       <ItTitle>Latest Projects</ItTitle> 
       <AroundFlex>
       <NavBox>
@@ -116,7 +116,7 @@ const SixthSection = () => {
           )})}
         </LatestProjects>
       </AroundFlex>
-    </section>
+    </Wrapper>
   )
 }
 

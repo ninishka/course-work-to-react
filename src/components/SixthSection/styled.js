@@ -1,9 +1,14 @@
 import styled from 'styled-components'
 
+export const Wrapper = styled.section`
+ background-color: #A7C1D9;
+`
+
 export const ItTitle = styled.h2`
   text-align: center;
-  margin-top: 150px;
   font-size: 35px;
+  margin-top: 0px;
+  padding: 77px;
   font-family: 'Glacial Indifference-Bold', sans-serif;
 `
 export const AroundFlex = styled.div`

@@ -9,8 +9,6 @@ export const Section2Wrapper = styled.section`
   font-family: 'Glacial Indifference-Bold', sans-serif;
   position: relative;
   background-color: #F2955E;
-  border-top: 2px solid #A7C1D9;
-
   /* max-width: 1051px; */
   @media (max-width: 1000px) {
     flex-direction: column;

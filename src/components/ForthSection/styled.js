@@ -20,8 +20,8 @@ export const FlexCont = styled.div`
 `
 export const Box = styled.div`
   padding: 70px 40px;
-  margin: 3px;
-  width: 180px;
+  margin: 3px ;
+  width: 243px;
   background-color:#A7C1D9;
   font-family: 'Glacial Indifference-Bold', sans-serif;
 

@@ -4,12 +4,10 @@ export const ContactMeWrapper = styled.div`
   background-color: #F2955E;
   display: flex;
   width: 100%;
+  padding: 66px 0;
   justify-content: center;
   position: relative;
   font-family: 'Glacial Indifference-Bold', sans-serif;
-  border-top: 2px solid #A7C1D9;
-  border-bottom: 2px solid #A7C1D9;
-
 
   @media (max-width: 1024px) {
     flex-direction: column;

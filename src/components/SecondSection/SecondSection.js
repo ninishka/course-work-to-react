@@ -17,7 +17,7 @@ import {
   MyBar
 } from './styled'
 
-import tpt3 from '../imgs/tpt3.png'
+import tpt3 from '../imgs2/IMG_2078.JPG'
 
 const progressBarData = [
   { id: "myBar1", text: 'HTML', finalWidth: 0.9,  width: 10  },

@@ -1,8 +1,13 @@
 import styled from 'styled-components'
 
+export const Wrapper = styled.section`
+background-color: #A7C1D9;
+`
+
 export const TitleLp = styled.div`
   text-align: center;
-  margin: 60px 0 35px;
+  margin: -48px 0 -29px;
+  padding: 65px;
   font-family: 'Glacial Indifference-Bold', sans-serif;
 `
 export const News = styled.p`
@@ -24,8 +29,9 @@ export const DivForCont = styled.div`
   justify-content: space-evenly;
   min-width: 60%;
   align-items: center;
-  background-color: #FAFAFA;
-  margin-bottom: 79px;
+  /* background-color: #FAFAFA; */
+  background-color: #F2955E;
+  margin-bottom: 0;
   min-width: ${({ isReverce }) => isReverce && '40%'};
 
 `
@@ -46,18 +52,22 @@ export const Empty = styled.div`
   width: 1300px;
 `
 export const TextWrap = styled.div`
-max-width: 400px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `
 export const ImgWrap = styled.div`
-  border: 1px solid #FFFFFF;
+  border: 1px solid transparent;
   border-radius: 50%;
-  background-color: #FFFFFF;
+  background-color: #A7C1D9;
   padding: 10px;
+  margin: 13px 0px;
   max-width: max-content;
   transition-duration: 2s;
   &:hover {
-  background-color: #E93656;
-}
+    background-color: #E93656;
+  }
 `
 export const Company = styled.h6`
   color: #888888;

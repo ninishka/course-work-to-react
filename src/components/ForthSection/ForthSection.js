@@ -19,19 +19,24 @@ import img8 from '../imgs2/support.svg'
 
 const boxesData = [
   {
-    title: 'Front End Development',
-    description: 'Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor',
+    title: 'Professional Experience',
+    description: 'Currently engaged in a significant project for a personal business owner, creating a comprehensive e-commerce website with React.',
     src: img1
   },
   {
-    title: 'Best Service',
-    description: 'Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor',
+    title: 'Ongoing Growth',
+    description: 'Committed to continuous learning and improvement, I actively seek to refine my skills and stay updated with industry trends.',
     src: img2
   },
   {
-    title: 'Unique Ideas',
-    description: 'Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor',
+    title: 'Technical Skills',
+    description: 'Proficient in HTML, CSS, and vanilla JavaScript, with hands-on experience in React.',
     src: img3
+  },
+  {
+    title: 'Design Analysis',
+    description: 'Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor',
+    src: img6
   },
   {
     title: 'Pixel Perfect',
@@ -39,14 +44,9 @@ const boxesData = [
     src: img4
   },
   {
-    title: 'Unique Ideas',
-    description: 'Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor',
+    title: 'Technical Skills',
+    description: 'Proficient in HTML, CSS, and vanilla JavaScript, with hands-on experience in React.',
     src: img5
-  },
-  {
-    title: 'Design Analysis',
-    description: 'Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor',
-    src: img6
   },
   {
     title: 'Fully Managed',
