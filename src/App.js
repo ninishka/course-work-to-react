@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import FirstSection from './components/FirstSection/FirstSection'
+import SecondSection from './components/SecondSection/SecondSection'
+import ThirdSection from './components/ThirdSection/ThirdSection'
+import ForthSection from './components/ForthSection/ForthSection'
+import FifthSection from './components/FifthSection/FifthSection'
+import SixthSection from './components/SixthSection/SixthSection'
+import SeventhSection from './components/SeventhSection/SeventhSection'
+import EightSection from './components/EightSection/EightSection'
+import NinethSection from './components/NinethSection/NinethSection'
+import TenSection from './components/TenSection/TenSection'
+import Modal from './components/Modal/Modal'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FirstSection />
+      <SecondSection>
+      <Modal/>
+      </SecondSection>
+      <ThirdSection />
+      <ForthSection />
+      <FifthSection />
+      <SixthSection />
+      <SeventhSection />
+      <EightSection />
+      <NinethSection />
+      <TenSection />
     </div>
   );
 }
 
 export default App;
+
